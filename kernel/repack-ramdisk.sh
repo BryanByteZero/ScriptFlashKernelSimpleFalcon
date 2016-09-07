@@ -34,12 +34,11 @@ if [ "$found" != 'run-parts /system/etc/init.d' ]; then
         echo "    group root" >> init.rc
 fi
 
-#
 # disable powerHal and mpdecision if enabled
 # thanks to alberto & fabio for finding out the true location of powerhal
 # adapt the idea of blechdose and modified by hurtsky for anykernel script usage
 # a big thanks to this devs!
-#
+
 if [ -e /system/vendor/lib/hw/power.msm8226.so ]; then
 	[ -e /system/vendor/lib/hw/power.msm8226.so.bak ] || cp /system/vendor/lib/hw/power.msm8226.so /system/vendor/lib/hw/power.msm8226.so.bak;
 	[ -e /system/vendor/lib/hw/power.msm8226.so ] && rm -f /system/vendor/lib/hw/power.msm8226.so;
