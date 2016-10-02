@@ -3,7 +3,7 @@ ui_print("ZER0 Kernel By BryanByteZ at XDA-Devs");
 ui_print("For Moto G 2013 ");
 ui_print("A.K.A.");
 ui_print("Falcon");
-ui_print("For CyanogenMod 13");
+ui_print("For CyanogenMod 14");
 ui_print("and based's");
 mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system");
 show_progress(0.200000, 0);
