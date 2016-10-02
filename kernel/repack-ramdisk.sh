@@ -1,7 +1,7 @@
 #!/sbin/sh
 
 # copy old kernel to sdcard
-if [ ! -e /sdcard/pre_pink_boot ]; then
+if [ ! -e /sdcard/pre_zero_boot ]; then
 	cp /tmp/boot.img /sdcard/pre_zero_boot.img
 fi
 
