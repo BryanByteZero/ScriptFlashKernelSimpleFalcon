@@ -1,8 +1,8 @@
 show_progress(0.500000, 0);
 ui_print("ZER0 Kernel By BryanByteZ @XDA-developers");
-ui_print("For Moto G 2013 ");
+ui_print("For Moto G 4G 2013 ");
 ui_print("A.K.A.");
-ui_print("Falcon");
+ui_print("Peregrine");
 ui_print("For CyanogenMod 11");
 ui_print("and based's");
 show_progress(0.200000, 0);
